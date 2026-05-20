@@ -10,10 +10,7 @@ const generateToken = require("../utils/generateToken");
 exports.registerUser = async (req, res) => {
 
   try {
-
     console.log("REGISTER API HIT");
-
-
 
     const { name, email, password } = req.body;
 
